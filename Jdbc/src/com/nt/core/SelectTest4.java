@@ -43,7 +43,7 @@ public class SelectTest4 {
 								//process the ResultSet obj ( 1 or 0 records)
 								if(rs != null) {
 										if(rs.next())
-												System.out.println(rs.getInt(1) + rs.getString(2) + rs.getString(3) + rs.getDouble(4) + rs.getInt(5) );
+												System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + " " + rs.getDouble(4) + " " + rs.getInt(5) );
 										else 
 												System.out.println("Record not found");
 								}
@@ -66,6 +66,28 @@ public class SelectTest4 {
 						catch(SQLException se) {
 							se.printStackTrace();
 						}
+						try {
+							if(st != null)
+								st.close();
+						}
+						catch(SQLException se) {
+							se.printStackTrace();
+						}
+						try {
+							if(con != null)
+								con.close();
+						}
+						catch(SQLException se) {
+							se.printStackTrace();
+						}
+						try {
+							if(sc != null)
+								sc.close();
+						}
+						catch(Exception e) {
+							e.printStackTrace();
+						}
+						
 				}
 	}
 
