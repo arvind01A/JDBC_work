@@ -9,6 +9,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SelectTest3 {
@@ -71,6 +72,13 @@ public class SelectTest3 {
 			}
 			catch(SQLException se) {
 				se.printStackTrace();
+			}
+			try {
+				if(sc!=null)
+					sc.close();
+			}
+			catch(Exception e) {
+				e.printStackTrace();
 			}
 		}//finally
 	}//main
