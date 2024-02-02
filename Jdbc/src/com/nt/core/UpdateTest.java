@@ -33,14 +33,13 @@ public class UpdateTest {
 					
 					//send and executeUpdate
 					int count = 0;
-					try(ResultSet rs = st.executeQuery(query)){
-						if(rs!=null)
-							count++;
-						if(count==0)
-							System.out.println("Record not found");
-						else
-							System.out.println(count + " no of record is found and update");
-					}//try4
+					count = st.executeUpdate(query);
+				
+					if(count==0)
+						System.err.println("Record not found");
+					else
+						System.out.println(count + " no of record is found and update");
+					
 				}//try3
 			}//try2
 		}//try1
