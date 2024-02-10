@@ -1,5 +1,5 @@
 //PS_BulkInsertTest.java
-package com.nt.core;
+package com.nt.oracle;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

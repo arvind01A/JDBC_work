@@ -1,5 +1,5 @@
 //SelectTest3.java			(with java condition standards)
-package com.nt.core;
+package com.nt.oracle;
 /*
  * App giving emp details based on the given initial chars of employee name
  */

@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/arvin/Downloads/WINDOWS.X64_193000_db_home/jdbc/lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arvin/Downloads/mysql-connector-j-8.0.33.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
