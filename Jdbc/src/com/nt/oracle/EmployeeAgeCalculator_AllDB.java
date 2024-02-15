@@ -41,7 +41,7 @@ public class EmployeeAgeCalculator_AllDB {
 							//sysDate in Millis
 							long sysDateMs = sysDate.getTime();
 							//calculate the age
-							float age = (sysDateMs - dobMs)/1000.0f *60.0f*60.0f*24.0f*365.25f;
+							float age = (sysDateMs - dobMs)/(1000.0f *60.0f*60.0f*24.0f*365.25f);
 							System.out.println("Person age:: " + age);
 						} else {
 							System.err.println("Employee not found");
