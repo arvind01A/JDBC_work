@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Scanner;
 
-public class CS_ProcedureCallMultiplication {
+public class CS_ProcedureCallCube {
 	private static final String CALL_QUERY = "{CALL P_MULTI(?,?,?)}";
 	
 	public static void main(String[] args) {
