@@ -18,6 +18,7 @@ public class CS_FunctionCallTest1 {
 				){
 			int no = 0;
 			if(sc!=null) {
+				//read input
 				System.out.print("Enter student no:: ");
 				no = sc.nextInt();
 			}
