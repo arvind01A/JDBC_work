@@ -22,7 +22,7 @@ public class InsertTest_LOBs {
 			// read inputs
 			String name = null, desg = null, photoPath = null, resumePath = null;
 			if(sc!=null) {
-				System.out.print("Enter employee name:: ");
+				System.out.print("Enter employee name:: "); 
 				name = sc.nextLine();
 				System.out.print("Enter employee desg:: ");
 				desg = sc.nextLine();
